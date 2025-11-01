@@ -9,7 +9,8 @@
 #define NUM_PALS_TOTAL 13
 #define MAX_MAP_DATA_SIZE 10240
 
-#define NUM_TILES_PER_METATILE 8
+// github.com/pret/pokeemerald/wiki/Triple-layer-metatiles
+#define NUM_TILES_PER_METATILE 12
 
 // Map coordinates are offset by 7 when using the map
 // buffer because it needs to load sufficient border
