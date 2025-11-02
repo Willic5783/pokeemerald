@@ -3,11 +3,14 @@
 
 #define NUM_TILES_IN_PRIMARY 512
 #define NUM_TILES_TOTAL 1024
-#define NUM_METATILES_IN_PRIMARY 512
-#define NUM_METATILES_TOTAL 1024
+#define NUM_METATILES_IN_PRIMARY 2048
+#define NUM_METATILES_TOTAL 4096
 #define NUM_PALS_IN_PRIMARY 6
 #define NUM_PALS_TOTAL 13
 #define MAX_MAP_DATA_SIZE 10240
+
+// github.com/pret/pokeemerald/wiki/Expanding-The-Metatile-Count
+#define MAX_ELEVATION_LEVEL 7 // Old was 15
 
 // github.com/pret/pokeemerald/wiki/Triple-layer-metatiles
 #define NUM_TILES_PER_METATILE 12
